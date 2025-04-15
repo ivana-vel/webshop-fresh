@@ -1,0 +1,239 @@
+@media screen and (min-width: 1024px){
+    body{
+        background-color: rgb(255, 254, 240);
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    header{
+        height: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #logo{
+        width: 10rem;
+    
+    }
+    
+    .cart-container{
+        display: flex;
+        justify-content: center;
+        gap: 0;
+    }
+    
+    #naslov_kosarica{
+        font-size: 2.2rem;
+        text-align: center;
+        width: 100%;
+        margin: 1rem auto;
+    }
+    
+    .icon{
+        height: 5.7rem;
+        margin-right: 1rem;
+    }
+    
+    .lijevi{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        width: 37vw;
+        border: 3px solid rgb(231, 171, 60);
+    }
+    
+    #naziv-proizvoda{
+        text-align: center;
+        font-size: 1.6rem; 
+    }
+    
+    .desni{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        width: 27vw;
+        border: 3px solid rgb(231, 171, 60);
+        border-left: 0;
+    }
+    
+    #kolicina-naslov{
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    
+    .lista-proiz{
+        list-style: none;
+        text-align: center;
+        font-size: 1.6rem;
+        margin-top: 0.8rem;;
+    }
+    
+    .lista-kol{
+        list-style: none;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 0.8rem;;
+    }
+    
+    .button{
+        font-size: 1.2rem;
+        width: 1.5rem;
+        margin-inline-start: 0.7rem;
+        margin-inline-end: 0.7rem;
+        border-color: rgb(231, 190, 129);
+        background-color: antiquewhite;
+        color: rgb(175, 108, 6);
+        border-radius: 4px;
+    }
+    
+    .button:hover{
+        cursor: pointer;
+    }    
+
+    #ikone{
+        position: relative;
+        display: inline-block;
+    }
+
+    #badge-cart{
+        visibility: hidden;
+        position: absolute;
+        top: 61%;
+        left: 30%;
+        background-color: rgb(241, 77, 48);
+        color: rgb(2, 2, 2);
+        border-radius: 50%;
+        padding: 2px 6px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+
+}
+
+@media screen and (max-width: 1024px){
+    body{
+        background-color: rgb(255, 254, 240);
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    #logo{
+        width: 7.5rem;
+        
+    }
+
+    #icon-container{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    
+    .cart-container{
+        display: flex;
+        justify-content: center;
+        gap: 0;
+    }
+    
+    #naslov_kosarica{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    
+    .icon{
+        height: 5.7rem;
+        margin-right: 1rem;
+    }
+
+    .lijevi{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        width: 37vw;
+        border: 3px solid rgb(231, 171, 60);
+    }
+    
+    #naziv-proizvoda{
+        text-align: center;
+        font-size: 1.6rem; 
+    }
+    
+    .desni{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        width: 27vw;
+        border: 3px solid rgb(231, 171, 60);
+        border-left: 0;
+    }
+    
+    #kolicina-naslov{
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    
+    .lista-proiz{
+        list-style: none;
+        text-align: center;
+        font-size: 1.6rem;
+        margin-top: 0.8rem;;
+    }
+    
+    .lista-kol{
+        list-style: none;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 0.8rem;;
+    }
+    
+    .button{
+        font-size: 1.2rem;
+        width: 1.5rem;
+        margin-inline-start: 0.7rem;
+        margin-inline-end: 0.7rem;
+        border-color: rgb(231, 190, 129);
+        background-color: antiquewhite;
+        color: rgb(175, 108, 6);
+        border-radius: 4px;
+    }
+    
+    .button:hover{
+        cursor: pointer;
+    }  
+
+    #ikone{
+        position: relative;
+        display: inline-block;
+    }
+
+    #badge-cart{
+        visibility: hidden;
+        position: absolute;
+        top: 61%;
+        left: 30%;
+        background-color: rgb(241, 77, 48);
+        color: rgb(2, 2, 2);
+        border-radius: 50%;
+        padding: 2px 6px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+}
